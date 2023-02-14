@@ -1,0 +1,15 @@
+C:\Users\Camer\source\repos\SevereWeatherPrep\bin\Debug\net6.0\SevereWeatherPrep.exe
+C:\Users\Camer\source\repos\SevereWeatherPrep\bin\Debug\net6.0\SevereWeatherPrep.deps.json
+C:\Users\Camer\source\repos\SevereWeatherPrep\bin\Debug\net6.0\SevereWeatherPrep.runtimeconfig.json
+C:\Users\Camer\source\repos\SevereWeatherPrep\bin\Debug\net6.0\SevereWeatherPrep.dll
+C:\Users\Camer\source\repos\SevereWeatherPrep\bin\Debug\net6.0\SevereWeatherPrep.pdb
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.csproj.AssemblyReference.cache
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.AssemblyInfoInputs.cache
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.AssemblyInfo.cs
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.csproj.CoreCompileInputs.cache
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.dll
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\refint\SevereWeatherPrep.dll
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.pdb
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\SevereWeatherPrep.genruntimeconfig.cache
+C:\Users\Camer\source\repos\SevereWeatherPrep\obj\Debug\net6.0\ref\SevereWeatherPrep.dll
