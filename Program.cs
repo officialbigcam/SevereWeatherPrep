@@ -1,5 +1,7 @@
 ﻿using System;
+using SurvivabilityProcedures;
 using EquipmentToPack;
+
 
 namespace SevereWeatherPrep
 
@@ -10,6 +12,7 @@ namespace SevereWeatherPrep
         {
            
             Equipment.ListItems();
+            Procedures.SurvivalProcedures();
            
         }
     }
