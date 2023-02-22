@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SurvivabilityProcedures
 
 {
-    public class Procedures
+    public class Procedures 
     {
         public static void SurvivalProcedures()
         {

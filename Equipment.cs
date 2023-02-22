@@ -20,14 +20,14 @@ namespace EquipmentToPack
             while (appRunning == true)
 
             {
-                Console.WriteLine("Please take account of all bugout bag equipment and add it below. This is your equipment checklist:");
-
+                Console.WriteLine("Please take account of all bugout bag equipment and add it below. This is your equipment checklist\n");
+                Console.WriteLine("Once you've added all of your equipment, type -exit to view survival procedures");
                 //read in what the user types
                 var input = Console.ReadLine();
 
 
 
-                switch (input.ToLower().Trim())
+                switch (input)
 
                 {
 
