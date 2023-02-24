@@ -14,15 +14,16 @@ namespace EquipmentToPack
             var EquipmentList = new List<string>();
             var appRunning = true;
             //Give user program instructions 
-            Console.WriteLine("Welcome to the Severe Weather Prep application");
-            Console.WriteLine("Commands: '-exit' to complete list and view procedures, '-show' to view your list, '-' to remove an item, \n");
-            //As long as user does not exit the program, do this:
+            Console.WriteLine("----Welcome to the Severe Weather Prep application----\n");
+            Console.WriteLine("----Please type the equipment items you intend to pack in your emergency kit, I.E. Flashlight, road flares, etc----\n");
+            Console.WriteLine("Type '-show' to view your equipement, '-' to remove an item, or '-exit' when ready to view procedures \n");
+            
             while (appRunning == true)
 
             {
                 Console.WriteLine("Please take account of all bugout bag equipment and add it below. This is your equipment checklist\n");
                 Console.WriteLine("Once you've added all of your equipment, type -exit to view survival procedures");
-                //read in what the user types
+               
                 var input = Console.ReadLine();
 
 
@@ -31,7 +32,7 @@ namespace EquipmentToPack
 
                 {
 
-                    //if told to exit, close program
+                    
                     case string a when a.StartsWith("-exit"):
                         appRunning = false;
                         break;
