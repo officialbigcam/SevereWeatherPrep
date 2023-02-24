@@ -15,7 +15,7 @@ namespace EquipmentToPack
             var appRunning = true;
             //Give user program instructions 
             Console.WriteLine("Welcome to the Severe Weather Prep application");
-            Console.WriteLine("Commands: '-exit', '-show', '-', \n");
+            Console.WriteLine("Commands: '-exit' to complete list and view procedures, '-show' to view your list, '-' to remove an item, \n");
             //As long as user does not exit the program, do this:
             while (appRunning == true)
 
