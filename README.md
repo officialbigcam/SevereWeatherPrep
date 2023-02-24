@@ -1,12 +1,19 @@
 ## Severe Weather Prepardness Equipment and Procedures Checklist
 # This project is a work in progress developed with C# using .NET6 framework. 
 As of 02/08/2023, the goals of this project include but are not limited to:
--a simple to-do list of what the user should pack in their bugout kit 
+-a simple list that allows the user to take acountability of equipment they
+want to add to their emergency prepardness (bugout) bag
 -a list of procedures advising the user how to efficiently prepare and survive
-severe weather encounters (Arrays and lists will be used)
+severe weather encounters 
+
+Required features that this project has as of 02/23/2023
+1)master loop that lets user exit program after they add equipment and view procedures
+2)a method that creates a new list with several values
+3)equipment class that inherits from Procedures 
 
 This project has been made possible by the generous assistance of Code Louisville 
 mentors, classmates, and certified meteorologists with the goal of optimizing survivability 
 in the event the user encounters dangerous weather situations. 
 
-More updates and commits to come 
+
+
