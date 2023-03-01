@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SurvivabilityProcedures;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EquipmentToPack
 {
-    public class Equipment
+    public class Equipment : Procedures
     {
         public static void ListItems()
         {
