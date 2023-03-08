@@ -14,7 +14,7 @@ namespace EquipmentToPack
         {
             var EquipmentList = new List<string>();
             var appRunning = true;
-            //Give user program instructions 
+            //Gives user program instructions 
             Console.WriteLine("----Welcome to the Severe Weather Prep application----\n");
             Console.WriteLine("----Please type the equipment items you intend to pack in your emergency kit, I.E. Flashlight, road flares, etc----\n");
             Console.WriteLine("Type '-show' to view your equipement, '-' to remove an item, or '-exit' when ready to view procedures \n");
