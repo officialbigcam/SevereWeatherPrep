@@ -5,7 +5,7 @@ This app uses the following features as required by the project requirements doc
 
 -A loop that allows the user to enter commands and eventually exit the program
 -A to-do list feature where the user can add, remove, and display their equipment
--A mathematical calculation of how many days it has been since the Moore, OK EF5 Tornado
+-A mathematical calculation of how many years it has been since the Moore, OK EF5 Tornado
 
 I created three different classes and their respective methods to ensure the program runs properly. 
 
