@@ -12,6 +12,9 @@ namespace SurvivabilityProcedures
         public static void SurvivalProcedures()
         {
             
+            //A list of procedures the user views before exiting the program. 
+            //User should follow these instructions to stay safe during severe weather events.
+
             Console.WriteLine("Now that your equipment is accounted for, Please follow these instructions to remain safe\n");
             Console.WriteLine("1 - Ensure all entrances to your building and windows are closed\n");
             Console.WriteLine("2 - Get underground. If this is not an option, get to the center-most point of the building you're in\n");
