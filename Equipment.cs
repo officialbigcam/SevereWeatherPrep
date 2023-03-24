@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EquipmentToPack
 {
-    public class Equipment : Procedures
+    public class Equipment 
     {
         public static void ListItems()
         {
