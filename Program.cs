@@ -7,7 +7,7 @@ using MooreTornadoDate;
 namespace SevereWeatherPrep
 
 {
-    public class Program
+    public class Program : Procedure
     {
         public static void Main(string[] args)
         {
@@ -31,37 +31,36 @@ namespace SevereWeatherPrep
             {
 
                 //The procedures that are displayed to the user after they've finished packing their gear.
-                //When they chose to exit the program, these procedures will be displayed in an ordered list
+                //When they chose to exit the program, these procedures will be displayed in an ordered list.
+                //I called ShowUserTheProcedure method below to do this. 
+                
 
                 List<Procedure> procedures = new List<Procedure>();
 
                 Procedure procedure1 = new Procedure();
                 procedure1.ProcedureNumber = 1;
-                procedure1.Task = ("Ensure all entrances to your building and windows are closed");
+                procedure1.Task = "Ensure all entrances to your building and windows are closed";
 
                 Procedure procedure2 = new Procedure();
                 procedure2.ProcedureNumber = 2;
-                procedure2.Task = ("Get underground. If no shelter or basement is avaiable, get to the center-most point of the building you're in.");
+                procedure2.Task = "Get underground. If no shelter or basement is avaiable, get to the center-most point of the building you're in.";
 
                 Procedure procedure3 = new Procedure();
                 procedure3.ProcedureNumber = 3;
-                procedure3.Task = ("Continue to monitor NOAA weather radio or the NOAA IOS/Android app for situational updates. Remain where you are.");
+                procedure3.Task = "Continue to monitor NOAA weather radio or the NOAA IOS/Android app for situational updates. Remain where you are.";
+
+                procedures.Add(procedure1);
+                procedures.Add(procedure2);
+                procedures.Add(procedure3);
 
                 Console.WriteLine("Now that all of your equipment is packed, please follow these safety procedures shown below\n");
-                Console.WriteLine(procedure1.ProcedureNumber + procedure1.Task);
-                Console.WriteLine(procedure2.ProcedureNumber + procedure2.Task);
-                Console.WriteLine(procedure3.ProcedureNumber + procedure3.Task);
 
-
+                foreach (Procedure procedure in procedures)
+                {
+                    procedure.ShowUserTheProcedure();
+                }
 
             }
-
-
-
-
-
-
-
 
         }
     }
