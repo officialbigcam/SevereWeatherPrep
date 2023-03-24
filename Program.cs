@@ -7,20 +7,32 @@ using MooreTornadoDate;
 namespace SevereWeatherPrep
 
 {
-    public class Program 
+    public class Program
     {
         public static void Main(string[] args)
         {
 
-
+            //shows user how long it has been since the Moore EF5 tornado and also displays current time
             CurrentDate.GetCurrentDate();
 
-            Equipment.ListItems();
+            //the primary function of my app. Here the user can add, modify, show their equipment list or exit the program
+            var equipmentList = new List<string>();
+            Equipment.ListItems(equipmentList, "-finished", "-", "-show");
+
+            Console.WriteLine("\n----Severe Weather Preparedness Bugout Bag Equipment Packing List----");
+            foreach (var item in equipmentList)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("--------------\n");
+
 
 
             {
 
-                
+                //The procedures that are displayed to the user after they've finished packing their gear.
+                //When they chose to exit the program, these procedures will be displayed in an ordered list
+
                 List<Procedure> procedures = new List<Procedure>();
 
                 Procedure procedure1 = new Procedure();
@@ -40,17 +52,17 @@ namespace SevereWeatherPrep
                 Console.WriteLine(procedure2.ProcedureNumber + procedure2.Task);
                 Console.WriteLine(procedure3.ProcedureNumber + procedure3.Task);
 
-                 
-                
+
+
             }
-                
-                
-
-            
 
 
 
-            
+
+
+
+
+
         }
     }
 }
