@@ -13,7 +13,8 @@ namespace SevereWeatherPrep
         {
 
             //shows user how long it has been since the Moore EF5 tornado and also displays current time
-            CurrentDate.GetCurrentDate();
+            string currentDate = CurrentDate.GetCurrentDate();
+            Console.WriteLine(currentDate);
 
             //the primary function of my app. Here the user can add, modify, show their equipment list or exit the program
             var equipmentList = new List<string>();
