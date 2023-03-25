@@ -4,8 +4,9 @@
 This app uses the following features as required by the project requirements document:
 
 -A loop that allows the user to enter commands and eventually exit the program
--A to-do list feature where the user can add, remove, and display their equipment
+-A list feature where the user can add, remove, and display their equipment 
 -A mathematical calculation of how many years it has been since the Moore, OK EF5 Tornado
+-Three objects that inherit two properties from their parent class. See "Procedures"
 
 I created three different classes and their respective methods to ensure the program runs properly. 
 
