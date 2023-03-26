@@ -13,8 +13,9 @@ namespace MooreTornadoDate
         {
             DateTime mooreTornado = new DateTime(2013, 05, 20);
 
-            //lets the user know how many years it has been since the Moore, OK EF5 tornado on May 20th 2013
-
+            //this method calculates how many years it has been since the Moore, OK EF5 tornado. 
+            //this returns however many years it has been since that day as a value
+            
             string result = DateTime.Now.ToString("h:mm:ss tt") + " - Is the current Time\n";
             result += mooreTornado.ToString() + " - Date of the Moore, OK EF5 Tornado\n";
             result += "it has only been " + (DateTime.Now.Year - mooreTornado.Year) + " years since the Moore EF5 tornado. Are you prepared?\n";

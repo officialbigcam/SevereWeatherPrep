@@ -12,11 +12,14 @@ namespace SevereWeatherPrep
         public static void Main(string[] args)
         {
 
-            //shows user how long it has been since the Moore EF5 tornado and also displays current time
+            //shows user how long it has been since the Moore EF5 tornado
+            //It uses a simple mathematical equation and returns that number of years as a value 
+           
             string currentDate = CurrentDate.GetCurrentDate();
             Console.WriteLine(currentDate);
 
             //the primary function of my app. Here the user can add, modify, show their equipment list or exit the program
+            
             var equipmentList = new List<string>();
             Equipment.ListItems(equipmentList, "-finished", "-", "-show");
 
@@ -33,7 +36,9 @@ namespace SevereWeatherPrep
 
                 //The procedures that are displayed to the user after they've finished packing their gear.
                 //When they chose to exit the program, these procedures will be displayed in an ordered list.
-                //I called ShowUserTheProcedure method below to do this. 
+                //I called ShowUserTheProcedure method below to do that
+                //see the below objects I created. Each procedure is an object.
+                //These procedure objects inherit their respective properties from Procedure.cs (Task and ProcedureNumber)
                 
 
                 List<Procedure> procedures = new List<Procedure>();
