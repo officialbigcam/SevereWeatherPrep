@@ -1,5 +1,5 @@
 ﻿using System;
-using SurvivabilityProcedures;
+using SurvivabilityProceduresBaseAndChild;
 using EquipmentToPack;
 using MooreTornadoDate;
 
@@ -7,19 +7,19 @@ using MooreTornadoDate;
 namespace SevereWeatherPrep
 
 {
-    public class Program : Procedure
+    public class Program 
     {
         public static void Main(string[] args)
         {
 
             //shows user how long it has been since the Moore EF5 tornado
             //It uses a simple mathematical equation and returns that number of years as a value 
-           
+
             string currentDate = CurrentDate.GetCurrentDate();
             Console.WriteLine(currentDate);
 
             //the primary function of my app. Here the user can add, modify, show their equipment list or exit the program
-            
+
             var equipmentList = new List<string>();
             Equipment.ListItems(equipmentList, "-finished", "-", "-show");
 
@@ -30,44 +30,18 @@ namespace SevereWeatherPrep
             }
             Console.WriteLine("--------------\n");
 
-
-
             {
+                //Please see Procedure class for how I made Procedure objects inherit from SurvivabilityProcedure
+                //I created three different instances of the procedure object.
+                //These procedures will be displayed in an ordered list
+                //This happened when the user is finished checking/modifying their bugout bag list
 
-                //The procedures that are displayed to the user after they've finished packing their gear.
-                //When they chose to exit the program, these procedures will be displayed in an ordered list.
-                //I called ShowUserTheProcedure method below to do that
-                //see the below objects I created. Each procedure is an object.
-                //These procedure objects inherit their respective properties from Procedure.cs (Task and ProcedureNumber)
-                
-
-                List<Procedure> procedures = new List<Procedure>();
-
-                Procedure procedure1 = new Procedure();
-                procedure1.ProcedureNumber = 1;
-                procedure1.Task = "Ensure all entrances to your building and windows are closed";
-
-                Procedure procedure2 = new Procedure();
-                procedure2.ProcedureNumber = 2;
-                procedure2.Task = "Get underground. If no shelter or basement is avaiable, get to the center-most point of the building you're in.";
-
-                Procedure procedure3 = new Procedure();
-                procedure3.ProcedureNumber = 3;
-                procedure3.Task = "Continue to monitor NOAA weather radio or the NOAA IOS/Android app for situational updates. Remain where you are.";
-
-                procedures.Add(procedure1);
-                procedures.Add(procedure2);
-                procedures.Add(procedure3);
-
-                Console.WriteLine("Now that all of your equipment is packed, please follow these safety procedures shown below\n");
-
-                foreach (Procedure procedure in procedures)
-                {
-                    procedure.ShowUserTheProcedure();
-                }
+                SurvivabilityProcedure procedures = new SurvivabilityProcedure();
+                procedures.ShowSurvivabilityProcedures();
 
             }
 
         }
+   
     }
 }
