@@ -12,9 +12,13 @@ namespace EquipmentToPack
         public static void ListItems(List<string> equipmentList, string exitCommand = "-finished", string removeCommand = "-", string showCommand = "-show")
         {
             //Gives user program instructions 
+
             Console.WriteLine("----Welcome to the Severe Weather Prep application----\n");
             Console.WriteLine("----Please type the equipment items you intend to pack in your emergency kit, I.E. Flashlight, road flares, etc----\n");
             Console.WriteLine($"Type '{showCommand}' to double check your equipment, '{removeCommand}' to remove an item, or '{exitCommand}' when ready to view procedures \n");
+
+            //This equipment class essentially acts as a checklist for users to account for their emergency gear
+            //There are three commands the user has here. Please see the above ListItems method
 
             while (true)
             {

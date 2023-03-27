@@ -34,7 +34,7 @@ namespace SevereWeatherPrep
                 //Please see Procedure class for how I made Procedure objects inherit from SurvivabilityProcedure
                 //I created three different instances of the procedure object.
                 //These procedures will be displayed in an ordered list
-                //This happened when the user is finished checking/modifying their bugout bag list
+                //This happens when the user is finished checking/modifying their bugout bag list
 
                 SurvivabilityProcedure procedures = new SurvivabilityProcedure();
                 procedures.ShowSurvivabilityProcedures();

@@ -18,6 +18,9 @@ namespace SurvivabilityProceduresBaseAndChild
     {
         // Creates a list of procedures for the SurvivabilityProcedures class
         // The below objects (my procedures) inherit their properties from the Procedure class
+        // (Creates a list and populates it with data, retrieves the value to be displayed to user)
+        // (Create an additional class which inherits two properties from its parent, Procedure)
+        
 
         public List<Procedure> procedures = new List<Procedure>
         {
@@ -42,7 +45,8 @@ namespace SurvivabilityProceduresBaseAndChild
         {
             Console.WriteLine("Now that all of your equipment is packed, please follow these safety procedures shown below\n");
 
-            // Call the ShowUserTheProcedure method for each procedure in the list
+            // Calls the ShowUserTheProcedure method for each procedure in the list
+
             foreach (Procedure procedure in procedures)
             {
                 procedure.ShowUserTheProcedure();
