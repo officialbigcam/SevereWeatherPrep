@@ -4,9 +4,10 @@
 This app uses the following features as required by the project requirements document:
 
 -A loop that allows the user to enter commands and eventually exit the program
--A list feature where the user can add, remove, and display their equipment 
+-A list feature of the Procedure object that retrieves a value and displays to the user
+-(There is another list used in the Equipment class)
 -A mathematical calculation of how many years it has been since the Moore, OK EF5 Tornado.
-This calculation returns a value to the user in the number of years it has been since.
+This calculation returns a value to the user in the number of years it has been since then.
 -Three objects that inherit two properties from their parent class. See "Procedure"
 
 I created four classes and their respective methods to ensure the program runs properly. 
