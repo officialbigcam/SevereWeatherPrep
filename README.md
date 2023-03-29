@@ -3,9 +3,8 @@
 # This project is a work in progress developed with C# using .NET6 framework.
 This app uses the following features as required by the project requirements document:
 
--A loop that allows the user to enter commands and eventually exit the program
--A list feature of the Procedure object that retrieves a value and displays to the user
--(There is another list used in the Equipment class)
+-A master loop that allows the user to enter commands, start over, or exit the program
+-A list feature of the Procedure objects that retrieve a value and displays to the user
 -A mathematical calculation of how many years it has been since the Moore, OK EF5 Tornado.
 This calculation returns a value to the user in the number of years it has been since then.
 -Three objects that inherit two properties from their parent class. See "Procedure"

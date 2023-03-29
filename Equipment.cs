@@ -20,15 +20,18 @@ namespace EquipmentToPack
             //This equipment class essentially acts as a checklist for users to account for their emergency gear
             //There are three commands the user has here. Please see the above ListItems method
 
-            while (true)
+            var exit = false;
+
+            while(!exit)
+
             {
                 Console.WriteLine("Please take account of all bugout bag equipment and add it below. This is your equipment checklist\n");
 
                 var input = Console.ReadLine();
 
-                if (input.StartsWith(exitCommand))
+                if (input.StartsWith(exitCommand)) 
                 {
-                    break;
+                    exit = true; 
                 }
                 else if (input.EndsWith(removeCommand))
                 {
