@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camer\\source\\repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj": {}
+    "C:\\Users\\CameronClark\\Source\\Repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camer\\source\\repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj": {
+    "C:\\Users\\CameronClark\\Source\\Repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camer\\source\\repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj",
+        "projectUniqueName": "C:\\Users\\CameronClark\\Source\\Repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj",
         "projectName": "SevereWeatherPrep",
-        "projectPath": "C:\\Users\\Camer\\source\\repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj",
-        "packagesPath": "C:\\Users\\Camer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camer\\source\\repos\\SevereWeatherPrep\\obj\\",
+        "projectPath": "C:\\Users\\CameronClark\\Source\\Repos\\SevereWeatherPrep\\SevereWeatherPrep.csproj",
+        "packagesPath": "C:\\Users\\CameronClark\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CameronClark\\Source\\Repos\\SevereWeatherPrep\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CameronClark\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

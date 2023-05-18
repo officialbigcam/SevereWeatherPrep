@@ -21,7 +21,7 @@ namespace SevereWeatherPrep
             var equipmentList = new List<string>();
             SurvivabilityProcedure procedures = new SurvivabilityProcedure();
 
-            //The primary function of my app. Here the user can add, modify, show their equipment list, start over, or exit the program
+            //The primary function of my app. Here the user can add, modify, show their equipment list, start over, or exit the program.
             //This includes the master loop.
             //It gives the user the ability to clear and go back to their bugout kit list, or to exit the program
             //If the user choses to exit the program, SurvivabilityProcedures will be displayed
